@@ -15,7 +15,7 @@
     <div class="header-decor"></div>
     <a href="Okavarne-boot.html" class="header-text">O kavárně</a>
     <a href="Menu-boot.html" class="header-text">Menu</a>
-    <a href="Main-boot.html" class="logo-img"><img src="Fotky/logo-nobg.png" alt="Logo Kavárny 7:01"></a>
+    <a href="index.html" class="logo-img"><img src="Fotky/logo-nobg.png" alt="Logo Kavárny 7:01"></a>
     <a href="Galerie-boot.html" class="header-text">Galerie</a>
     <a href="Kontakty-boot.html" class="header-text">Kontakty</a>
     <div class="header-decor"></div>
@@ -56,6 +56,27 @@
       </div>
     </div>
   </section>
+
+  <section class="container py-5">
+    <h3 class="text-center mb-4">Napište nám</h3>
+    <form action="https://formsubmit.co/daid.buddy@gmail.com" method="POST" class="row g-3">
+      <div class="col-md-6">
+        <input type="text" name="name" class="form-control" placeholder="Vaše jméno" required>
+      </div>
+      <div class="col-md-6">
+        <input type="email" name="email" class="form-control" placeholder="Váš email" required>
+      </div>
+      <div class="col-12">
+        <textarea name="message" class="form-control" rows="5" placeholder="Vaše zpráva" required></textarea>
+      </div>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="Kontakty-boot.html">
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-dark px-4">Odeslat</button>
+      </div>
+    </form>
+  </section>
+
 </main>
 
 <footer>
